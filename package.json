@@ -1,0 +1,26 @@
+{
+  "name": "Google-Books-Search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divijmathur/Google-Books-Search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divijmathur/Google-Books-Search/issues"
+  },
+  "homepage": "https://github.com/divijmathur/Google-Books-Search#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongojs": "^3.1.0",
+    "request": "^2.88.0"
+  }
+}
