@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/divijmathur/Google-Books-Search#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongojs": "^3.1.0",
     "request": "^2.88.0"
   }
